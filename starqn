@@ -1,0 +1,18 @@
+public class NestedLoopExample {
+    public static void main(String[] args) {
+        int rows = 5;
+
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+In this example, there are two nested for loops. The outer loop (i) iterates through each row, and the inner loop (j) prints the stars in each row based on the current value of i. This creates a pattern of stars like:
+
+
+
+
+
